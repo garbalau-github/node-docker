@@ -1,0 +1,12 @@
+Dockerfile
+docker build .
+docker run [id of image] - runs container (creates unique)
+docker run -it [id of image] - runs container with console (creates unique)
+.exit - exit console
+docker ps - watch running containers
+docker ps -a - watch all containers
+docker rm [id of container] - delete container
+docker container prune - delete all containers
+docker tag logsapp garbalau/logsapp - rename images (create new)
+docker images - what images I have
+Container is a runnable instance of Image
